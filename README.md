@@ -3,17 +3,17 @@
 
 Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, folosind o aplicație live.
 
-Aplicație în curs de testare: https://opensource-demo.orangehrmlive.com/
+Website în curs de testare: https://www.amaratour.ro/
 
-Documentația API: https://orangehrm.github.io/orangehrm-api-doc/
+Documentația API: https://www.amaratour.ro/amaratour-api-doc/
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/README.md#1-sec%C8%9Biunea-de-testare) și [Secțiunea SQL](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/edit/main/README.md#2-sec%C8%9Biunea-sql)).**
+**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/README.md#1-sec%C8%9Biunea-de-testare) și [Secțiunea SQL](https://github.com/iulia6/itf_manual_testing_final_project_template/blob/main/Final%20Project/SQL)).**
 
 Instrumente folosite: JIRA, Zephyr Squad, Postman, MySQL Workbench.
 
 # Specificații funcționale
 
-Povestea de mai jos a fost creată în JIRA și descrie specificațiile funcționale ale modulului Dependenți, pentru care se realizează proiectul final.
+Povestea de mai jos a fost creată în JIRA și descrie specificațiile funcționale ale modulului Clienti, pentru care se realizează proiectul final.
 
 ![imagine](https://user-images.githubusercontent.com/99291143/163687093-6f1780d1-2808-4038-9ae2-65c22540a55c.png)
 
@@ -22,16 +22,16 @@ Povestea de mai jos a fost creată în JIRA și descrie specificațiile funcțio
 
 ## 1.1 Planificarea testelor
 
-Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul Dependenți din aplicația OrangeHRM.
+Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul Dependenți din websiteul Amara Tour.
 
 Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
 
 #### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
 
-* Manager de proiect - Andrei Popescu
-* Product owner - Mădălina Ionescu
-* Dezvoltator software - Gabriela Tomescu
-* Inginer QA - Iulia Albu
+* Manager de proiect - Ormenisan Vlad
+* Product owner - Florea Ioana
+* Dezvoltator software - Vasiu Tudor
+* Inginer QA - Negru Silvia
 
 #### 1.1.2 Criteriile de intrare definite
 
@@ -72,7 +72,7 @@ Următorul raport de stare a fost generat după ce 40% din cazurile de testare a
 
 ## 1.3 Analiza testului
 
-Procesul de testare va fi executat pe baza cerințelor de mai sus pentru modulul Dependenți. Au fost găsite următoarele condiții de testare:
+Procesul de testare va fi executat pe baza cerințelor de mai sus pentru modulul Clienti. Au fost găsite următoarele condiții de testare:
   * Introduceți date numai pentru câmpurile obligatorii și verificați dacă persoana dependentă este creată/actualizată
   * Introduceți datele pentru toate câmpurile disponibile și verificați dacă persoana dependentă este creată/actualizată
   * Lăsați câmpurile obligatorii goale și verificați dacă persoana dependentă nu poate fi creată/actualizată
@@ -131,4 +131,4 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 
 # 2 Secțiunea SQL
 
-A creat o bază de date numită „orangehrm” și un tabel numit „dependenți” cu toate coloanele necesare pentru a salva datele conform specificațiilor. Au efectuat diferite interogări în interiorul fișierului sql: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
+A creat o bază de date numită „amaratour” și un tabel numit „clienti” cu toate coloanele necesare pentru a salva datele conform specificațiilor. Au efectuat diferite interogări în interiorul fișierului sql: [clienti.sql](https://github.com/iulia6/itf_manual_testing_final_project_template/blob/main/Final%20Project/SQL)
