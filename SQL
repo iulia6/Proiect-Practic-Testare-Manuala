@@ -1,0 +1,44 @@
+create database amaratour;
+
+use amaratour;
+
+create table clienti(
+ID int primary key,
+nume varchar(100),
+prenume varchar(100),
+data_nasterii varchar(100),
+pasaport varchar(100),
+adresa varchar(100),
+telefon varchar(100),
+email varchar(100)
+);
+
+insert into clienti (ID, nume, prenume, data_nasterii, pasaport, adresa, telefon, email) values
+(1, 'Abrudan', 'Natalia', '12.02.1995', 161858249, 'Cluj-Napoca', 0721001252, 'abrudan.natalia@gmail.com');
+
+insert into clienti (ID, nume, prenume, data_nasterii, pasaport, adresa, telefon, email) values
+(2, 'Ionescu', 'Grigore', '06.05.1967', 151665984, 'Medgidia', 0724456824, 'ionescug@gmail.com'),
+(3, 'Georgescu', 'Ana', '24.01.1982', 161232557, 'Arad', 0725222899, 'gana@yahoo.com');
+
+insert into clienti (ID, nume, prenume, data_nasterii, pasaport, adresa, telefon, email) values
+(4, 'Popescu', 'Ana', '12.12.1986', 161252822, 'Floresti', 0722882561, 'anap@gmail.com'),
+(5, 'Vasilescu', 'Ion', '21.04.1987', 151442679, 'Deva', 0721496697, 'v.ion@yahoo.ro');
+
+select * from clienti;
+update clienti set telefon=0722882564 where ID=4;
+
+select * from clienti;
+select nume from clienti where adresa='Deva';
+
+select * from clienti where prenume like '&Ana%';
+
+select * from clienti where data_nasterii in ('12.12.1986', '21.04.1987');
+
+select nume, prenume from clienti where data_nasterii > '21.04.1987';
+
+select * from clienti;
+update clienti set adresa='Deva' where ID=4;
+
+select adresa, COUNT(*) from clienti group by adresa;
+
+delete from clienti where ID=2;
