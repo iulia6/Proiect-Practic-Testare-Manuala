@@ -6,7 +6,7 @@ Website în curs de testare: https://www.amaratour.ro/
 
 Documentația API: https://www.amaratour.ro/amaratour-api-doc/
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/README.md#1-sec%C8%9Biunea-de-testare) și [Secțiunea SQL](https://github.com/iulia6/itf_manual_testing_final_project_template/blob/main/Final%20Project/SQL)).**
+**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/README.md#1-sec%C8%9Biunea-de-testare) și [Secțiunea SQL](https://github.com/iulia6/itf_manual_testing_final_project_template/blob/main/Final%20Project/SQL).**
 
 Instrumente folosite: JIRA, Zephyr Squad, MySQL Workbench.
 
@@ -45,7 +45,6 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 * toate erorile rezolvate au fost re-testate și aprobate de echipa QA
 * termenul limită a fost atins
 * niciun risc major detectat nu a rămas neatenuat
-* testarea de regresie exploratorie trebuie efectuată pe modulul My Info, care include secțiunea Dependenți
 
 #### 1.1.4 Domeniul testului
 
@@ -64,7 +63,7 @@ Criteriile de intrare definite în faza de planificare a testelor au fost atinse
 ## 1.2 Monitorizare și control de testare
 
 Au fost generate diverse rapoarte periodice pentru a reflecta stadiul actual al procesului de testare, în cazul unor probleme majore s-ar putea lua măsuri de control.
-Următorul raport de stare a fost generat după ce 40% din cazurile de testare au fost executate, la 1 aprilie 2022:
+Următorul raport de stare a fost generat după ce 40% din cazurile de testare au fost executate, la 14 august 2023:
 
 ![imagine](https://user-images.githubusercontent.com/99291143/163689699-e0295daa-e5dc-4e87-a984-546d9351fbac.png)
 
@@ -100,10 +99,10 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 
 * Mediul de testare este activ și rulează: https://opensource-demo.orangehrmlive.com/
 * Accesul la mediul de testare este dat: Nume utilizator : Admin | Parola: admin123
-* Rezumatul ciclului a fost creat
+* Cycle summaryul a fost creat
 * Cazurile de testare au fost adăugate la rezumatul ciclului
 * A fost creată colecția Postman cu metodele API dependente
-* Jetonul de autorizare a fost creat pentru accesarea API-ului
+* Tokenul de autorizare a fost creat pentru accesarea API-ului
 
 ## 1.6 Execuția testului
 
@@ -119,11 +118,11 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 
 ## 1.7 Finalizarea testului
 
-* Deoarece criteriile de ieșire au fost îndeplinite și satisfăcute așa cum se menționează în secțiunea corespunzătoare, echipa de testare sugerează această funcție să „Pune live”
+* Deoarece criteriile de ieșire au fost îndeplinite și satisfăcute așa cum se menționează în secțiunea corespunzătoare, echipa de testare sugerează această funcție să fie lansata
 * Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
 * A fost generată diagrama de execuție a testelor, raportul final arată că un număr de 5 teste au eșuat din total 23
-* Un număr de 23 de cazuri de testare au fost planificate pentru execuție și toate au fost executate
-* S-au găsit un număr de 5 erori în total, dintre care prioritatea este: 1 este mare, 4 sunt medii și 1 este scăzută
+* Un număr de 11 de cazuri de testare au fost planificate pentru execuție și toate au fost executate
+* S-au găsit un număr de 4 erori în total, dintre care prioritatea este: 1 este mare, 2 sunt medii și 1 este scăzută
 
 ![imagine](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
 
