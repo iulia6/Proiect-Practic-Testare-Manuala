@@ -48,13 +48,13 @@ Planul identifică elementele de testat, caracteristicile care trebuie testate, 
 
 #### 1.1.4 Domeniul testului
 
-* __Teste în domeniu:__ Toate caracteristicile modulului Dependenți care au fost definite în specificațiile cerințelor software trebuie testate: testare funcțională, testare GUI și testare API
+* __Teste în domeniu:__ Toate caracteristicile crearii unui cont care au fost definite în specificațiile cerințelor software trebuie testate: testare funcțională, testare GUI și testare API
 * __Teste care nu intră în domeniul de aplicare:__ testare de performanță, integrări ale modulului de dependență cu alte module, testare de compatibilitate cu mai multe browsere
 
 #### 1.1.5 Riscuri detectate
 
-* Riscuri ale proiectului: lipsa de experiență a echipei QA, termen scurt pentru încercarea Zephyr Squad, indisponibilitatea mediului de testare
-* Riscuri de produs: constrângerile de validare asupra câmpurilor ar putea fi prea restrictive pentru utilizatorul final
+* Riscuri ale proiectului: lipsa de experiență a echipei QA, schimbari neprevazute de cerinte, concurenta si evolutia tehnologiei
+* Riscuri de produs: performanta, securitatea datelor, suport tehnic din partea echipei care a creat websiteul si se ocupa de mentenanta acestuia
 
 #### 1.1.6 Evaluarea criteriilor de intrare
 
@@ -65,18 +65,23 @@ Criteriile de intrare definite în faza de planificare a testelor au fost atinse
 Au fost generate diverse rapoarte periodice pentru a reflecta stadiul actual al procesului de testare, în cazul unor probleme majore s-ar putea lua măsuri de control.
 Următorul raport de stare a fost generat după ce 40% din cazurile de testare au fost executate, la 14 august 2023:
 
-![imagine](https://user-images.githubusercontent.com/99291143/163689699-e0295daa-e5dc-4e87-a984-546d9351fbac.png)
+![imagine](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Zephyr%20test%20metrics.JPG)
 
 
 ## 1.3 Analiza testului
 
 Procesul de testare va fi executat pe baza cerințelor de mai sus pentru modulul Clienti. Au fost găsite următoarele condiții de testare:
-  * Introduceți date numai pentru câmpurile obligatorii și verificați dacă persoana dependentă este creată/actualizată
-  * Introduceți datele pentru toate câmpurile disponibile și verificați dacă persoana dependentă este creată/actualizată
-  * Lăsați câmpurile obligatorii goale și verificați dacă persoana dependentă nu poate fi creată/actualizată
-  * Vizualizați detaliile dependente și verificați că sunt corecte
-  * Vedeți toate persoanele aflate în întreținere într-o listă
-  * Verificați toate constrângerile de validare pentru câmpuri
+  * Verify if a user can create a new account on www.amaratour.ro website
+  * Verify if a user can login into his account on www.amaratour.ro website
+  * Verify if a user can change the password of his account created on www.amaratour.ro website
+  * Verify if a user can log out from his account created on www.amaratour.ro website
+  * Verify the "Parola pierduta?" function on www.amaratour.ro website
+  * Verify if a user can filter the touristic package search by number hotel of stars
+  * Verify if a user can filter the touristic package search by hotel's name
+  * Verify if a user can sort the touristic packages selection by price
+  * Verify if an user can book a touristic package on www.amaratour.ro website
+  * Verify if an user can download the documents from a successfully booked touristic package on www.amaratour.ro website
+  * Verify if a user can sort the touristic packages selection by Denumire (Z-A)
 
 ## 1.4 Testare de proiectare
 
@@ -85,7 +90,7 @@ sunt analiza valorii limită, partiționarea echivalenței și testarea cazurilo
 
 **Cazuri de testare:**
 
-![imagine](https://user-images.githubusercontent.com/99291143/163688901-26234e0a-abfa-4034-93bf-bca37ad2b50c.png)
+![imagine](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Test%20case%20raport.JPG)
 
 
 Cazurile de testare cu pași pot fi vizualizate aici: [Dependents_test_cases.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_test_cases.pdf)
@@ -98,7 +103,7 @@ Pentru API-ul Dependents, a fost generată următoarea listă de verificare: [AP
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
 
 * Mediul de testare este activ și rulează: https://opensource-demo.orangehrmlive.com/
-* Accesul la mediul de testare este dat: Nume utilizator : Admin | Parola: admin123
+* Accesul la mediul de testare este dat: Nume utilizator : pavel.m87@yahoo.com | Parola: super87
 * Cycle summaryul a fost creat
 * Cazurile de testare au fost adăugate la rezumatul ciclului
 * A fost creată colecția Postman cu metodele API dependente
