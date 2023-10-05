@@ -111,14 +111,13 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 
 ## 1.6 Execuția testului
 
-* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [Dependents_cycle_summary_execution.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_cycle_summary_execution.pdf)
-* Bug-urile au fost create pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [Dependents_created_bugs.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_created_bugs.pdf)
+* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [Creares_cont_summary_execution.pdf](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Cycle%20summary.csv)
+* Bug-urile au fost create pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [Creare_cont_bugs.pdf](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Bug%20report.JPG)
      * Formatul datei nu este zz/ll/aaaa
      * „Data nașterii” viitoare poate fi selectată din calendar
      * Sunt permise doar 50 de caractere pentru câmpul „Vă rugăm să specificați”.
      * Numai 50 de caractere sunt permise pentru câmpul „Nume”.
-     * Relația „părinte” lipsește
-* Testele API sunt executate pe baza listei de verificare. Colecția folosită poate fi găsită aici: [Fișier JSON cu colecția de solicitări creată pentru API-ul Dependents](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/OrangeHRM%20API%20-% 20Dependents.postman_collection.json)
+* Testele API sunt executate pe baza listei de verificare. Colecția folosită poate fi găsită aici: [Fișier JSON cu colecția de solicitări creată pentru API-ul Creare_cont](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/OrangeHRM%20API%20-% 20Dependents.postman_collection.json)
 * Testarea completă a regresiei este necesară după ce erorile sunt remediate
 
 ## 1.7 Finalizarea testului
