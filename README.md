@@ -14,7 +14,7 @@ Instrumente folosite: JIRA, Zephyr Squad, MySQL Workbench.
 
 Povestea de mai jos a fost creată în JIRA și descrie specificațiile funcționale ale modulului Clienti, pentru care se realizează proiectul final.
 
-![imagine](https://user-images.githubusercontent.com/99291143/163687093-6f1780d1-2808-4038-9ae2-65c22540a55c.png)
+![imagine](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/story1.JPG)
 
 
 # 1 Secțiunea de testare
