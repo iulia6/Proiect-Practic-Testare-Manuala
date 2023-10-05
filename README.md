@@ -93,7 +93,7 @@ sunt analiza valorii limită, partiționarea echivalenței și testarea cazurilo
 ![imagine](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Test%20case%20raport.JPG)
 
 
-Cazurile de testare cu pași pot fi vizualizate aici: [Dependents_test_cases.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_test_cases.pdf)
+Cazurile de testare cu pași pot fi vizualizate aici: [Create_account_test_cases.pdf](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/IS-17.pdf)
 
 Pentru API-ul Dependents, a fost generată următoarea listă de verificare: [API_test_checklist.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/API_test_checklist.csv)
 
@@ -102,7 +102,7 @@ Pentru API-ul Dependents, a fost generată următoarea listă de verificare: [AP
 
 Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
 
-* Mediul de testare este activ și rulează: https://opensource-demo.orangehrmlive.com/
+* Mediul de testare este activ și rulează: https://www.amaratour.ro/
 * Accesul la mediul de testare este dat: Nume utilizator : pavel.m87@yahoo.com | Parola: super87
 * Cycle summaryul a fost creat
 * Cazurile de testare au fost adăugate la rezumatul ciclului
