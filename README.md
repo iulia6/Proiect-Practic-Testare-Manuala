@@ -124,12 +124,12 @@ Următoarele elemente sunt necesare pentru a fi pregătite înainte de începere
 ## 1.7 Finalizarea testului
 
 * Deoarece criteriile de ieșire au fost îndeplinite și satisfăcute așa cum se menționează în secțiunea corespunzătoare, echipa de testare sugerează această funcție să fie lansata
-* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
+* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Matricea%20trasabilitatii.JPG)
 * A fost generată diagrama de execuție a testelor, raportul final arată că un număr de 5 teste au eșuat din total 23
 * Un număr de 11 de cazuri de testare au fost planificate pentru execuție și toate au fost executate
-* S-au găsit un număr de 4 erori în total, dintre care prioritatea este: 1 este mare, 2 sunt medii și 1 este scăzută
+* S-au găsit un număr de 2 erori în total, dintre care prioritatea este: 1 este medie și 1 este scăzută
 
-![imagine](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
+![imagine](https://github.com/iulia6/Proiect-Practic-Testare-Manuala/blob/main/Test%20Execution%20Chart.JPG)
 
 
 # 2 Secțiunea SQL
